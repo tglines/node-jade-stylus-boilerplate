@@ -1,0 +1,24 @@
+{
+  "name": "node-jade-stylus-boilerplate",
+  "version": "0.0.0",
+  "description": "Nodejs boilerplate with jade and stylus",
+  "main": "server.coffee",
+  "scripts": {
+    "start": "coffee server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tglines/node-jade-stylus-boilerplate.git"
+  },
+  "dependencies":{
+    "express":"*",
+    "jade":"*",
+    "stylus":"*"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Travis Glines",
+  "license": "MIT"
+}
